@@ -1,9 +1,14 @@
 import React from 'react'
 
+import { Input } from '../ui/input';
+
 function NavSearch() {
   return (
-    <div>NavSearch</div>
-  )
+    <Input
+      type='search'
+      placeholder='目的地を検索'
+      className='max-w-xs dark:bg-muted '
+    />
+  );
 }
-
-export default NavSearch
+export default NavSearch;
